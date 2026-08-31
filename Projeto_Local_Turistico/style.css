@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+header {
+    background-color: #d93829;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #1e6091;
+    border-bottom: 3px solid #f5a623;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+.card-atracao {
+    background-color: #fafafa;
+    border-left: 4px solid #d93829;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.card-atracao h3 {
+    color: #d93829;
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 10px auto;
+}
+
+figure {
+    margin: 15px 0;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #666666;
+    margin-top: 5px;
+}
+
+footer{
+    color: #777777;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 4px;
+    box-shadow: none;
+    border-radius: 0;
+}
