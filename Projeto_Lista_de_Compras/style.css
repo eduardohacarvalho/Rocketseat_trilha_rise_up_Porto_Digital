@@ -1,0 +1,173 @@
+/* Variáveis do Projeto */
+:root {
+  --bg-primary: #F4F5FB;
+  --bg-surface: #FFFFFF;
+  
+  --color-brand: #CA3884;
+  --color-danger: #C93847;
+  
+  --text-primary: #080B12;
+  --text-secondary: #374151;
+  --text-placeholder: #9CA3AF;
+  --text-white: #FFFFFF;
+  
+  --border-color: #D1D5DB;
+  
+  --font-main: 'Inter', sans-serif;
+  --font-logo: 'Sora', sans-serif;
+}
+
+/* Base / Body */
+body {
+  background-color: var(--bg-primary);
+  font-family: var(--font-main);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 627px;
+  margin: 0 auto;
+  padding: 25px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header & Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-family: var(--font-logo);
+  font-weight: 700;
+  font-size: 26.67px;
+  color: var(--text-secondary);
+  margin-bottom: 64px;
+}
+
+.back-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-brand);
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 44px;
+}
+
+/* Formulário para Adicionar Item */
+.add-item-form {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.input-field {
+  flex: 1;
+  height: 44px;
+  padding: 0 18px;
+  background: var(--bg-surface);
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  font-family: var(--font-main);
+  font-size: 16px;
+  color: var(--text-primary);
+  box-sizing: border-box;
+}
+
+.input-field::placeholder {
+  color: var(--text-placeholder);
+}
+
+.btn-add {
+  width: 160px;
+  height: 44px;
+  background-color: var(--color-brand);
+  color: var(--text-white);
+  border: none;
+  border-radius: 12px;
+  font-family: var(--font-main);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Lista de Itens */
+.shopping-list {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  background-color: var(--bg-surface);
+  border-radius: 12px;
+  height: 49px;
+  box-sizing: border-box;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.item-text {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.btn-delete {
+  background: transparent;
+  border: none;
+  border-radius: 12px;
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Banner de Alerta */
+.alert {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  gap: 8px;
+  background-color: var(--color-danger);
+  border-radius: 12px;
+  color: var(--text-white);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.alert-content {
+  flex: 1;
+}
+
+.btn-close-alert {
+  background: transparent;
+  border: none;
+  color: var(--text-white);
+  cursor: pointer;
+}

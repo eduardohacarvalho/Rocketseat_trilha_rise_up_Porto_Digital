@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Compras</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <a href="#" class="back-link">&larr; Voltar</a>
+
+    <header class="logo">
+      <span>Sua Lista</span>
+    </header>
+    <h1 class="title">Lista de compras</h1>
+
+    <form class="add-item-form" id="add-form">
+      <input 
+        type="text" 
+        class="input-field" 
+        id="item-input" 
+        placeholder="Adicionar novo item"
+      >
+      <button type="submit" class="btn-add">Adicionar item</button>
+    </form>
+
+    <ul class="shopping-list" id="shopping-list">
+    
+    </ul>
+
+    <div class="alert" id="alert-banner" style="display: none;">
+      <span class="alert-content">O item foi removido da lista</span>
+      <button type="button" class="btn-close-alert" id="btn-close-alert">&times;</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
