@@ -1,2 +1,2 @@
-console.log("Hello World!")
-console.log("Essa mensagem é do JS conectado ao HTML")
+console.log("Olá!");
+console.log("Espero que esteja bem")
